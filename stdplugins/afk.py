@@ -62,9 +62,9 @@ async def _(event):
             afk_time = datetime.datetime.now()  # pylint:disable=E0602
         USER_AFK = f"yes: {reason}"  # pylint:disable=E0602
         if reason:
-            await event.edit(f"Set AFK mode to True, and Reason is {reason}")
+            await event.edit(f"Going **OFFLINE**, because i am {reason}")
         else:
-            await event.edit(f"Set AFK mode to True")
+            await event.edit(f"Going **OFFLINE**")
         await asyncio.sleep(5)
         await event.delete()
         try:
@@ -122,10 +122,10 @@ async def on_afk(event):
             else:
                 afk_since = f"`{int(seconds)}s` **ago**"
         msg = None
-        message_to_reply = f"My Master **3Cube** Is **AFK since** {afk_since} " + \
-            f"\n\n__and HE will be back soon__\n\n**Because my King is** {reason}" \
+        message_to_reply = f"My **Boss** NO ONE Is **OFFLINE** right-now. 😴 \n" + \
+            f"\nI want you to contact him **later** 🙂🙂\n\n**Because my Boss is** {reason} 🙃" \
             if reason \
-            else f"My King **3Cube** is **AFK Since** {afk_since} so wait until He is back.\n\n**THANKS**."
+            else f"My Boss NO ONE is **OFFLINE** so wait and dont spam PM\n\n**THANKS**"
         msg = await event.reply(message_to_reply)
         await asyncio.sleep(5)
         if event.chat_id in last_afk_message:  # pylint:disable=E0602
