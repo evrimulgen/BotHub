@@ -21,7 +21,7 @@ PREV_REPLY_MESSAGE = {}
 BAALAJI_TG_USER_BOT = "My Master hasn't approved you to PM."
 TG_COMPANION_USER_BOT = "Please wait for his response and don't spam his PM."
 UNIBORG_USER_BOT_WARN_ZERO = "I am currently offline. Please do not SPAM me."
-UNIBORG_USER_BOT_NO_WARN = "[──▄█▀█▄─────────██ \n▄████████▄───▄▀█▄▄▄▄ \n██▀▼▼▼▼▼─▄▀──█▄▄ \n█████▄▲▲▲─▄▄▄▀───▀▄ \n██████▀▀▀▀─▀────────▀▀](http://t.me/NoOneCanBeNoOne) \n\n Thank you for contacting my **BOSS** but my **BOSS** is **OFFLINE** Right Now, he will message once he get **ONLINE** 🙂🙂"
+UNIBORG_USER_BOT_NO_WARN = "[──▄█▀█▄─────────██ \n▄████████▄───▄▀█▄▄▄▄ \n██▀▼▼▼▼▼─▄▀──█▄▄ \n█████▄▲▲▲─▄▄▄▀───▀▄ \n██████▀▀▀▀─▀────────▀▀](t.me/NoOneCanBeNoOne) \n\n Thank you for contacting my **BOSS** but my **BOSS** is **OFFLINE** Right Now, he will message once he get **ONLINE** 🙂🙂"
 
 
 @borg.on(admin_cmd(pattern="nccreatedch"))
