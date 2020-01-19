@@ -23,61 +23,61 @@ async def _(event):
 
     input_str = event.pattern_match.group(1)
 
-    if input_str == "mayur":
+    if input_str == "noone":
 
         await event.edit(input_str)
 
         animation_chars = [
 
-            "👑Mayur👑👑👑👑Mayur👑👑Mayur👑👑Mayur👑\n👑Mayur👑👑Mayur👑👑Mayur👑👑Mayur👑👑Mayur👑\n👑Mayur👑👑Mayur👑👑Mayur👑👑Mayur👑👑Mayur👑\n👑Mayur👑👑Mayur👑👑Mayur👑👑Mayur👑👑Mayur👑\n👑Mayur👑👑Mayur👑👑Mayur👑👑Mayur👑👑Mayur👑",
+            "👑NO ONE👑👑👑👑NO ONE👑👑NO ONE👑👑NO ONE👑\n👑NO ONE👑👑NO ONE👑👑NO ONE👑👑NO ONE👑👑NO ONE👑\n👑NO ONE👑👑NO ONE👑👑NO ONE👑👑NO ONE👑👑NO ONE👑\n👑NO ONE👑👑NO ONE👑👑NO ONE👑👑NO ONE👑👑NO ONE👑\n👑NO ONE👑👑NO ONE👑👑NO ONE👑👑NO ONE👑👑NO ONE👑",
 
-            "◼️👑Mayur👑👑Mayur👑👑Mayur👑👑Mayur👑\n👑Mayur👑👑Mayur👑👑Mayur👑👑Mayur👑👑Mayur👑\n👑Mayur👑👑Mayur👑👑Mayur👑👑Mayur👑👑Mayur👑\n👑Mayur👑👑Mayur👑👑Mayur👑👑Mayur👑👑Mayur👑\n👑Mayur👑👑Mayur👑👑Mayur👑👑Mayur👑👑Mayur👑",
+            "◼️👑NO ONE👑👑NO ONE👑👑NO ONE👑👑NO ONE👑\n👑NO ONE👑👑NO ONE👑👑NO ONE👑👑NO ONE👑👑NO ONE👑\n👑NO ONE👑👑NO ONE👑👑NO ONE👑👑NO ONE👑👑NO ONE👑\n👑NO ONE👑👑NO ONE👑👑NO ONE👑👑NO ONE👑👑NO ONE👑\n👑NO ONE👑👑NO ONE👑👑NO ONE👑👑NO ONE👑👑NO ONE👑",
 
-            "◼️◼️👑Mayur👑👑Mayur👑👑Mayur👑\n👑Mayur👑👑Mayur👑👑Mayur👑👑Mayur👑👑Mayur👑\n👑Mayur👑👑Mayur👑👑Mayur👑👑Mayur👑👑Mayur👑\n👑Mayur👑👑Mayur👑👑Mayur👑👑Mayur👑👑Mayur👑\n👑Mayur👑👑Mayur👑👑Mayur👑👑Mayur👑👑Mayur👑",
+            "◼️◼️👑NO ONE👑👑NO ONE👑👑NO ONE👑\n👑NO ONE👑👑NO ONE👑👑NO ONE👑👑NO ONE👑👑NO ONE👑\n👑NO ONE👑👑NO ONE👑👑NO ONE👑👑NO ONE👑👑NO ONE👑\n👑NO ONE👑👑NO ONE👑👑NO ONE👑👑NO ONE👑👑NO ONE👑\n👑NO ONE👑👑NO ONE👑👑NO ONE👑👑NO ONE👑👑NO ONE👑",
 
-            "◼️◼️◼️️👑Mayur👑👑Mayur👑\n👑Mayur👑👑Mayur👑👑Mayur👑👑Mayur👑👑Mayur👑\n👑Mayur👑👑Mayur👑👑Mayur👑👑Mayur👑👑Mayur👑\n👑Mayur👑👑Mayur👑👑Mayur👑👑Mayur👑👑Mayur👑\n👑Mayur👑👑Mayur👑👑Mayur👑👑Mayur👑👑Mayur👑",
+            "◼️◼️◼️️👑NO ONE👑👑NO ONE👑\n👑NO ONE👑👑NO ONE👑👑NO ONE👑👑NO ONE👑👑NO ONE👑\n👑NO ONE👑👑NO ONE👑👑NO ONE👑👑NO ONE👑👑NO ONE👑\n👑NO ONE👑👑NO ONE👑👑NO ONE👑👑NO ONE👑👑NO ONE👑\n👑NO ONE👑👑NO ONE👑👑NO ONE👑👑NO ONE👑👑NO ONE👑",
 
-            "◼️◼️◼️◼️👑Mayur👑\n👑Mayur👑👑Mayur👑👑Mayur👑👑Mayur👑👑Mayur👑\n👑Mayur👑👑Mayur👑👑Mayur👑👑Mayur👑👑Mayur👑\n👑Mayur👑👑Mayur👑👑Mayur👑👑Mayur👑👑Mayur👑\n👑Mayur👑👑Mayur👑👑Mayur👑👑Mayur👑👑Mayur👑",
+            "◼️◼️◼️◼️👑NO ONE👑\n👑NO ONE👑👑NO ONE👑👑NO ONE👑👑NO ONE👑👑NO ONE👑\n👑NO ONE👑👑NO ONE👑👑NO ONE👑👑NO ONE👑👑NO ONE👑\n👑NO ONE👑👑NO ONE👑👑NO ONE👑👑NO ONE👑👑NO ONE👑\n👑NO ONE👑👑NO ONE👑👑NO ONE👑👑NO ONE👑👑NO ONE👑",
 
-            "‎◼️◼️◼️◼️◼️\n👑Mayur👑👑Mayur👑👑Mayur👑👑Mayur👑👑Mayur👑\n👑Mayur👑👑Mayur👑👑Mayur👑👑Mayur👑👑Mayur👑\n👑Mayur👑👑Mayur👑👑Mayur👑👑Mayur👑👑Mayur👑\n👑Mayur👑👑Mayur👑👑Mayur👑👑Mayur👑👑Mayur👑",
+            "‎◼️◼️◼️◼️◼️\n👑NO ONE👑👑NO ONE👑👑NO ONE👑👑NO ONE👑👑NO ONE👑\n👑NO ONE👑👑NO ONE👑👑NO ONE👑👑NO ONE👑👑NO ONE👑\n👑NO ONE👑👑NO ONE👑👑NO ONE👑👑NO ONE👑👑NO ONE👑\n👑NO ONE👑👑NO ONE👑👑NO ONE👑👑NO ONE👑👑NO ONE👑",
 
-            "◼️◼️◼️◼️◼️\n👑Mayur👑👑Mayur👑👑Mayur👑👑Mayur👑◼️\n👑Mayur👑👑Mayur👑👑Mayur👑👑Mayur👑👑Mayur👑\n👑Mayur👑👑Mayur👑👑Mayur👑👑Mayur👑👑Mayur👑\n👑Mayur👑👑Mayur👑👑Mayur👑👑Mayur👑👑Mayur👑",
+            "◼️◼️◼️◼️◼️\n👑NO ONE👑👑NO ONE👑👑NO ONE👑👑NO ONE👑◼️\n👑NO ONE👑👑NO ONE👑👑NO ONE👑👑NO ONE👑👑NO ONE👑\n👑NO ONE👑👑NO ONE👑👑NO ONE👑👑NO ONE👑👑NO ONE👑\n👑NO ONE👑👑NO ONE👑👑NO ONE👑👑NO ONE👑👑NO ONE👑",
 
-            "◼️◼️◼️◼️◼️\n👑Mayur👑👑Mayur👑👑Mayur👑👑Mayur👑◼️\n👑Mayur👑👑Mayur👑👑Mayur👑👑Mayur👑◼️\n👑Mayur👑👑Mayur👑👑Mayur👑👑Mayur👑👑Mayur👑\n👑Mayur👑👑Mayur👑👑Mayur👑👑Mayur👑👑Mayur👑",
+            "◼️◼️◼️◼️◼️\n👑NO ONE👑👑NO ONE👑👑NO ONE👑👑NO ONE👑◼️\n👑NO ONE👑👑NO ONE👑👑NO ONE👑👑NO ONE👑◼️\n👑NO ONE👑👑NO ONE👑👑NO ONE👑👑NO ONE👑👑NO ONE👑\n👑NO ONE👑👑NO ONE👑👑NO ONE👑👑NO ONE👑👑NO ONE👑",
 
-            "◼️◼️◼️◼️◼️\n👑Mayur👑👑Mayur👑👑Mayur👑👑Mayur👑◼️\n👑Mayur👑👑Mayur👑👑Mayur👑👑Mayur👑◼️\n👑Mayur👑👑Mayur👑👑Mayur👑👑Mayur👑◼️\n👑Mayur👑👑Mayur👑👑Mayur👑👑Mayur👑👑Mayur👑",
+            "◼️◼️◼️◼️◼️\n👑NO ONE👑👑NO ONE👑👑NO ONE👑👑NO ONE👑◼️\n👑NO ONE👑👑NO ONE👑👑NO ONE👑👑NO ONE👑◼️\n👑NO ONE👑👑NO ONE👑👑NO ONE👑👑NO ONE👑◼️\n👑NO ONE👑👑NO ONE👑👑NO ONE👑👑NO ONE👑👑NO ONE👑",
 
-            "◼️◼️◼️◼️◼️\n👑Mayur👑👑Mayur👑👑Mayur👑👑Mayur👑◼️\n👑Mayur👑👑Mayur👑👑Mayur👑👑Mayur👑◼️\n👑Mayur👑👑Mayur👑👑Mayur👑👑Mayur👑◼️\n👑Mayur👑👑Mayur👑👑Mayur👑👑Mayur👑◼️",
+            "◼️◼️◼️◼️◼️\n👑NO ONE👑👑NO ONE👑👑NO ONE👑👑NO ONE👑◼️\n👑NO ONE👑👑NO ONE👑👑NO ONE👑👑NO ONE👑◼️\n👑NO ONE👑👑NO ONE👑👑NO ONE👑👑NO ONE👑◼️\n👑NO ONE👑👑NO ONE👑👑NO ONE👑👑NO ONE👑◼️",
 
-            "◼️◼️◼️◼️◼️\n👑Mayur👑👑Mayur👑👑Mayur👑👑Mayur👑◼️\n👑Mayur👑👑Mayur👑👑Mayur👑👑Mayur👑◼️\n👑Mayur👑👑Mayur👑👑Mayur👑👑Mayur👑◼️\n👑Mayur👑👑Mayur👑👑Mayur👑◼️◼️",
+            "◼️◼️◼️◼️◼️\n👑NO ONE👑👑NO ONE👑👑NO ONE👑👑NO ONE👑◼️\n👑NO ONE👑👑NO ONE👑👑NO ONE👑👑NO ONE👑◼️\n👑NO ONE👑👑NO ONE👑👑NO ONE👑👑NO ONE👑◼️\n👑NO ONE👑👑NO ONE👑👑NO ONE👑◼️◼️",
 
-            "◼️◼️◼️◼️◼️\n👑Mayur👑👑Mayur👑👑Mayur👑👑Mayur👑◼️\n👑Mayur👑👑Mayur👑👑Mayur👑👑Mayur👑◼️\n👑Mayur👑👑Mayur👑👑Mayur👑👑Mayur👑◼️\n👑Mayur👑👑Mayur👑◼️◼️◼️",
+            "◼️◼️◼️◼️◼️\n👑NO ONE👑👑NO ONE👑👑NO ONE👑👑NO ONE👑◼️\n👑NO ONE👑👑NO ONE👑👑NO ONE👑👑NO ONE👑◼️\n👑NO ONE👑👑NO ONE👑👑NO ONE👑👑NO ONE👑◼️\n👑NO ONE👑👑NO ONE👑◼️◼️◼️",
 
-            "◼️◼️◼️◼️◼️\n👑Mayur👑👑Mayur👑👑Mayur👑👑Mayur👑◼️\n👑Mayur👑👑Mayur👑👑Mayur👑👑Mayur👑◼️\n👑Mayur👑👑Mayur👑👑Mayur👑👑Mayur👑◼️\n👑Mayur👑◼️◼️◼️◼️",
+            "◼️◼️◼️◼️◼️\n👑NO ONE👑👑NO ONE👑👑NO ONE👑👑NO ONE👑◼️\n👑NO ONE👑👑NO ONE👑👑NO ONE👑👑NO ONE👑◼️\n👑NO ONE👑👑NO ONE👑👑NO ONE👑👑NO ONE👑◼️\n👑NO ONE👑◼️◼️◼️◼️",
 
-            "◼️◼️◼️◼️◼️\n👑Mayur👑👑Mayur👑👑Mayur👑👑Mayur👑◼️\n👑Mayur👑👑Mayur👑👑Mayur👑👑Mayur👑◼️\n👑Mayur👑👑Mayur👑👑Mayur👑👑Mayur👑◼️\n◼️◼️◼️◼️◼️",
+            "◼️◼️◼️◼️◼️\n👑NO ONE👑👑NO ONE👑👑NO ONE👑👑NO ONE👑◼️\n👑NO ONE👑👑NO ONE👑👑NO ONE👑👑NO ONE👑◼️\n👑NO ONE👑👑NO ONE👑👑NO ONE👑👑NO ONE👑◼️\n◼️◼️◼️◼️◼️",
 
-            "◼️◼️◼️◼️◼️\n👑Mayur👑👑Mayur👑👑Mayur👑👑Mayur👑◼️\n👑Mayur👑👑Mayur👑👑Mayur👑👑Mayur👑◼️\n◼️👑Mayur👑👑Mayur👑👑Mayur👑◼️\n◼️◼️◼️◼️◼️",
+            "◼️◼️◼️◼️◼️\n👑NO ONE👑👑NO ONE👑👑NO ONE👑👑NO ONE👑◼️\n👑NO ONE👑👑NO ONE👑👑NO ONE👑👑NO ONE👑◼️\n◼️👑NO ONE👑👑NO ONE👑👑NO ONE👑◼️\n◼️◼️◼️◼️◼️",
 
-            "◼️◼️◼️◼️◼️\n👑Mayur👑👑Mayur👑👑Mayur👑👑Mayur👑◼️\n◼️👑Mayur👑👑Mayur👑👑Mayur👑◼️\n◼️👑Mayur👑👑Mayur👑👑Mayur👑◼️\n◼️◼️◼️◼️◼️",
+            "◼️◼️◼️◼️◼️\n👑NO ONE👑👑NO ONE👑👑NO ONE👑👑NO ONE👑◼️\n◼️👑NO ONE👑👑NO ONE👑👑NO ONE👑◼️\n◼️👑NO ONE👑👑NO ONE👑👑NO ONE👑◼️\n◼️◼️◼️◼️◼️",
 
-            "◼️◼️◼️◼️◼️\n◼️👑Mayur👑👑Mayur👑👑Mayur👑◼️\n◼️👑Mayur👑👑Mayur👑👑Mayur👑◼️\n◼️👑Mayur👑👑Mayur👑👑Mayur👑◼️\n◼️◼️◼️◼️◼️",
+            "◼️◼️◼️◼️◼️\n◼️👑NO ONE👑👑NO ONE👑👑NO ONE👑◼️\n◼️👑NO ONE👑👑NO ONE👑👑NO ONE👑◼️\n◼️👑NO ONE👑👑NO ONE👑👑NO ONE👑◼️\n◼️◼️◼️◼️◼️",
 
-            "◼️◼️◼️◼️◼️\n◼️◼️👑Mayur👑👑Mayur👑◼️\n◼️👑Mayur👑👑Mayur👑👑Mayur👑◼️\n◼️👑Mayur👑👑Mayur👑👑Mayur👑◼️\n◼️◼️◼️◼️◼️",
+            "◼️◼️◼️◼️◼️\n◼️◼️👑NO ONE👑👑NO ONE👑◼️\n◼️👑NO ONE👑👑NO ONE👑👑NO ONE👑◼️\n◼️👑NO ONE👑👑NO ONE👑👑NO ONE👑◼️\n◼️◼️◼️◼️◼️",
 
-            "◼️◼️◼️◼️◼️\n◼️◼️◼️👑Mayur👑◼️\n◼️👑Mayur👑👑Mayur👑👑Mayur👑◼️\n◼️👑Mayur👑👑Mayur👑👑Mayur👑◼️\n◼️◼️◼️◼️◼️",
+            "◼️◼️◼️◼️◼️\n◼️◼️◼️👑NO ONE👑◼️\n◼️👑NO ONE👑👑NO ONE👑👑NO ONE👑◼️\n◼️👑NO ONE👑👑NO ONE👑👑NO ONE👑◼️\n◼️◼️◼️◼️◼️",
 
-            "◼️◼️◼️◼️◼️\n◼️◼️◼️◼️◼️\n◼️👑Mayur👑👑Mayur👑👑Mayur👑◼️\n◼️👑Mayur👑👑Mayur👑👑Mayur👑◼️\n◼️◼️◼️◼️◼️",
+            "◼️◼️◼️◼️◼️\n◼️◼️◼️◼️◼️\n◼️👑NO ONE👑👑NO ONE👑👑NO ONE👑◼️\n◼️👑NO ONE👑👑NO ONE👑👑NO ONE👑◼️\n◼️◼️◼️◼️◼️",
 
-            "◼️◼️◼️◼️◼️\n◼️◼️◼️◼️◼️\n◼️👑Mayur👑👑Mayur👑◼️◼️\n◼️👑Mayur👑👑Mayur👑👑Mayur👑◼️\n◼️◼️◼️◼️◼️",
+            "◼️◼️◼️◼️◼️\n◼️◼️◼️◼️◼️\n◼️👑NO ONE👑👑NO ONE👑◼️◼️\n◼️👑NO ONE👑👑NO ONE👑👑NO ONE👑◼️\n◼️◼️◼️◼️◼️",
 
-            "◼️◼️◼️◼️◼️\n◼️◼️◼️◼️◼️\n◼️👑Mayur👑👑Mayur👑◼️◼️\n◼️👑Mayur👑👑Mayur👑◼️◼️\n◼️◼️◼️◼️◼️",
+            "◼️◼️◼️◼️◼️\n◼️◼️◼️◼️◼️\n◼️👑NO ONE👑👑NO ONE👑◼️◼️\n◼️👑NO ONE👑👑NO ONE👑◼️◼️\n◼️◼️◼️◼️◼️",
 
-            "◼️◼️◼️◼️◼️\n◼️◼️◼️◼️◼️\n◼️👑Mayur👑👑Mayur👑◼️◼️\n◼️👑Mayur👑◼️◼️◼️\n◼️◼️◼️◼️◼️",
+            "◼️◼️◼️◼️◼️\n◼️◼️◼️◼️◼️\n◼️👑NO ONE👑👑NO ONE👑◼️◼️\n◼️👑NO ONE👑◼️◼️◼️\n◼️◼️◼️◼️◼️",
 
-            "◼️◼️◼️◼️◼️\n◼️◼️◼️◼️◼️\n◼️👑Mayur👑👑Mayur👑◼️◼️\n◼️◼️◼️◼️◼️\n◼️◼️◼️◼️◼️",
+            "◼️◼️◼️◼️◼️\n◼️◼️◼️◼️◼️\n◼️👑NO ONE👑👑NO ONE👑◼️◼️\n◼️◼️◼️◼️◼️\n◼️◼️◼️◼️◼️",
 
-            "◼️◼️◼️◼️◼️\n◼️◼️◼️◼️◼️\n◼️◼️👑Mayur👑◼️◼️\n◼️◼️◼️◼️◼️\n◼️◼️◼️◼️◼️",
+            "◼️◼️◼️◼️◼️\n◼️◼️◼️◼️◼️\n◼️◼️👑NO ONE👑◼️◼️\n◼️◼️◼️◼️◼️\n◼️◼️◼️◼️◼️",
 
             "◼️◼️◼️◼️◼️\n◼️◼️◼️◼️◼️\n◼️◼️◼️◼️◼️\n◼️◼️◼️◼️◼️\n◼️◼️◼️◼️◼️",
 
@@ -88,7 +88,7 @@ async def _(event):
             "◼️◼️\n◼️◼️",
 
             "◼️",
-            "👑 MAYUR 👑"
+            "👑 NO ONE 👑"
         ]
 
         for i in animation_ttl:
