@@ -122,10 +122,10 @@ async def on_afk(event):
             else:
                 afk_since = f"`{int(seconds)}s` **ago**"
         msg = None
-        message_to_reply = f"My **Boss** NO ONE Is **OFFLINE** right-now. 😴 \n" + \
-            f"\nI want you to contact him **later** 🙂🙂\n\n**Because my Boss is** {reason} 🙃" \
+        message_to_reply = f"My **BOSS** NO ONE(t.me/NoOneCanBeNoOne) Is **OFFLINE** right-now. 😴 \n" + \
+            f"\nI want you to contact him **later** 🙂🙂\n\n**Because my BOSS is** {reason} 🙃" \
             if reason \
-            else f"My Boss NO ONE is **OFFLINE** so wait and dont spam PM\n\n**THANKS**"
+            else f"My **BOSS** NO ONE(t.me/NoOneCanBeNoOne) is **OFFLINE** so wait and dont spam PM\n\n**THANKS**"
         msg = await event.reply(message_to_reply)
         await asyncio.sleep(5)
         if event.chat_id in last_afk_message:  # pylint:disable=E0602
